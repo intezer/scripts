@@ -1,8 +1,8 @@
 # -=-=-=-=-=-=-=-=-=- 
 #  search_google.py
 # -=-=-=-=-=-=-=-=-=-
-# IDAPython plug adding right-click "Search Google for <<any highlighted content>>"
-# Create By Omri Ben-Bassat of Intezer Labs
+# IDAPython plugging adding "Search Google for..." to right click context menu
+# Created By Omri Ben-Bassat of Intezer Labs
 # Visit us at http://intezer.com
 #
 
