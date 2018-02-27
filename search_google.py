@@ -64,7 +64,7 @@ class SearchHandler(idaapi.action_handler_t):
         idaapi.action_handler_t.__init__(self)
         
     def activate(self, ctx):
-        os.system("START http://www.google.com/search?q=\"" + highlight[0] + "\"")
+        os.system("START https://www.google.com/search?q=\"" + highlight[0] + "\"")
         
         return 1
         
