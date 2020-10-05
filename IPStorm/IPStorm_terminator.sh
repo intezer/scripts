@@ -10,7 +10,7 @@ if pidof "$STORM_PROCESS_NAME" &> /dev/null; then
   echo "[!] IPStorm is running on your system."
   echo "# Cleaning machine from IPStorm..."
   sudo rm -rf "$STORM_ROOT_LOCATION" "$STORM_TMP_LOCATION"
-  sudo systemctl stop storm.service &> /dev/null
+  sudo systemctl stop "$STORM_SERVICE_NAME" &> /dev/null
   sudo pkill -9 "$STORM_PROCESS_NAME" &> /dev/null
   
   if pidof "$STORM_PROCESS_NAME"; then
